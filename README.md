@@ -1,5 +1,7 @@
 # 期末作业
 
+https://github.com/frtmobileapp/cooking-app
+
 实现Cooking App食谱应用
 
 ## 考试材料
