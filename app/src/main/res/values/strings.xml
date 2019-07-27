@@ -1,3 +1,64 @@
 <resources>
-    <string name="app_name">CookingApp</string>
+    <string name="app_name">Directions</string>
+    <string name="sttings">sttings</string>
+    <string name="directions">Directions</string>
+    <string name="lorem">Lorem ipsum dolor sit amet</string>
+    <string name="like"><font color="black">47 Likes</font></string>
+    <string name="ss"><font color="black">Gabriella Becker</font> Having entered his study Pierre\n
+        closed the door and addressed Anatole without\n
+        looking at him.<font color="#388e3c">#Pasta</font>\n\n
+
+        <font color="black">James Richardson</font> Woah!\n\n
+        <font color="black">Steve Patrick</font> This is unreal!\n\n
+        <font color="black">Savannah Walkman</font> It was a perilous adventure,\n
+        with the ever present danger of falling into the\n
+        sea.\n\n
+        <font color="black"> Kristina Richardson</font> Wow!\n\n
+        <font color="black">Linda Smit</font> Taste!</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="explore">Explore</string>
+    <string name="my_recipes">My Recipes</string>
+    <string name="activity">Activity</string>
+    <string name="settings">Settings</string>
+    <string name="logout">logout</string>
+    <string name="facebook">facebook</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="go">go</string>
+    <string name="sorry">抱歉，此功能暂未开放</string>
+    <string name="please">抱歉，请先注册账号</string>
+    <string name="login">login</string>
+    <string name="Lorem">\u3000Mauris non tempor quam,et lacinia sapien \n
+        \u3000Mauris accumsan eros eget libero posuere\n
+        \u3000vulputate.Etiam elit elit,elementum sed\n
+        \u3000\u3000\u3000varius at,adipiscing vitae est.</string>
+    <string name="make">Make</string>
+    <string name="share">Share</string>
+    <string name="Vest">\u3000\u3000Vestibulum rutrum quam vitae fringilla\n
+        \u3000tincidunt.Suspendisse nec tortor urna.Ut\n
+        \u3000laoreet sodales nisi,quis iaculis nulla iaculis\n
+        \u3000\u3000\u3000\u3000vitae.Donec sagittis fauc.</string>
+    <string name="Donec">\u3000Donec facilisis tortor ut augue lacinia,at\n
+        \u3000viverra est semper.Sed sapien metus,\n
+        \tscelerisque nec pharetra id,tempor a tortor\n
+        \u3000\u3000\u3000Pellentesque non dignissim ne.</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="cake">Cake</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="exam">本次的期末作业：序号22 开启左侧的菜单栏点击“My Recipes”</string>
 </resources>
