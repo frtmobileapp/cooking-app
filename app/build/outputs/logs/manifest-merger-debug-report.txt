@@ -1,0 +1,172 @@
+-- Merging decision tree log ---
+manifest
+ADDED from F:\cookapp\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from F:\cookapp\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from F:\cookapp\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from F:\cookapp\app\src\main\AndroidManifest.xml:2:1-24:12
+MERGED from [com.android.support:design:28.0.0] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\2bc155ca389b87a983e490bb3152d410\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\bb0517217c7330faa3f23a52051c97d3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\d1c2f98ad7d11502f3dcddfc5abe8bc1\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\43d2905bf13d5da053aab73cdbf4aa62\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\29fede7fe42b4fc9cd037cd5b441ecf4\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\ef675e5b1f7db2b84eeb925c3cc2ff11\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\76ab0741f58c2d0e2107f4c3ca6a6a98\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\cd799db54e4603264e4c2d128021a619\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\6f67ccfcd564c033b8e6a0778b052df6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\3e56635e8caf3bb0b588f6707d596184\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\1197dedd1bc16a363124eef5e9a36154\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\714132fd3957bd437f6ec97129bb8c56\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\d7a3fed176c9a0b74f10d43d606fef10\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\7219571a47fafc5e1489e170094e1b08\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\1674153ae3260fd5199daa1c1b7d1dd0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\9eba4592f7d2b595f783637bbe2a69ec\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\69acd1632f8b4b76b82f59da76a2dbd6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\764e23f81365ccdc7a8a62b8b91a17b3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\418255044ec787cb7df2d7d94029bc6b\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\2b0d1bb62820acb2d098e4a2a4fd5c57\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\51ec0ac2e0019637e3644f1bc00439b4\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\70e4940181a0dd0a25cc7da0abab671d\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\d265a42b705829a388994d5056d0e065\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\b929243835b5ba796033273ea6ed7aa5\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\7e3ef0ef912de05abaa8821c5911869a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\bad51c79273aa5ef54f98177816f3302\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\dfd1012af95a453f5720a7b0c53f8489\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\138af0bc921cc3c9dd1b9247446f4c5b\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\6d29952d9ca7b6f6ada9bdb737873752\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\cad4fcbd219db1c3b4419d29c9024107\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\5cdd5abbaedf029568617ef2696feb6f\AndroidManifest.xml:17:1-22:12
+INJECTED from F:\cookapp\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from F:\cookapp\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from F:\cookapp\app\src\main\AndroidManifest.xml:2:1-24:12
+	package
+		ADDED from F:\cookapp\app\src\main\AndroidManifest.xml:3:5-34
+		INJECTED from F:\cookapp\app\src\main\AndroidManifest.xml
+		INJECTED from F:\cookapp\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from F:\cookapp\app\src\main\AndroidManifest.xml
+		ADDED from F:\cookapp\app\src\main\AndroidManifest.xml:2:1-24:12
+		INJECTED from F:\cookapp\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from F:\cookapp\app\src\main\AndroidManifest.xml
+		ADDED from F:\cookapp\app\src\main\AndroidManifest.xml:2:1-24:12
+		INJECTED from F:\cookapp\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from F:\cookapp\app\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from F:\cookapp\app\src\main\AndroidManifest.xml:5:5-22:19
+MERGED from [com.android.support:design:28.0.0] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\2bc155ca389b87a983e490bb3152d410\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\2bc155ca389b87a983e490bb3152d410\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\d1c2f98ad7d11502f3dcddfc5abe8bc1\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\d1c2f98ad7d11502f3dcddfc5abe8bc1\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\418255044ec787cb7df2d7d94029bc6b\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\418255044ec787cb7df2d7d94029bc6b\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\2b0d1bb62820acb2d098e4a2a4fd5c57\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\2b0d1bb62820acb2d098e4a2a4fd5c57\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\418255044ec787cb7df2d7d94029bc6b\AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from F:\cookapp\app\src\main\AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from F:\cookapp\app\src\main\AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from F:\cookapp\app\src\main\AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from F:\cookapp\app\src\main\AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from F:\cookapp\app\src\main\AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from F:\cookapp\app\src\main\AndroidManifest.xml:11:9-40
+activity#com.example.cookapp.MainActivity
+ADDED from F:\cookapp\app\src\main\AndroidManifest.xml:12:9-21:20
+	android:label
+		ADDED from F:\cookapp\app\src\main\AndroidManifest.xml:14:13-45
+	android:theme
+		ADDED from F:\cookapp\app\src\main\AndroidManifest.xml:15:13-56
+	android:name
+		ADDED from F:\cookapp\app\src\main\AndroidManifest.xml:13:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from F:\cookapp\app\src\main\AndroidManifest.xml:16:13-20:29
+action#android.intent.action.MAIN
+ADDED from F:\cookapp\app\src\main\AndroidManifest.xml:17:17-69
+	android:name
+		ADDED from F:\cookapp\app\src\main\AndroidManifest.xml:17:25-66
+category#android.intent.category.LAUNCHER
+ADDED from F:\cookapp\app\src\main\AndroidManifest.xml:19:17-77
+	android:name
+		ADDED from F:\cookapp\app\src\main\AndroidManifest.xml:19:27-74
+uses-sdk
+INJECTED from F:\cookapp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from F:\cookapp\app\src\main\AndroidManifest.xml
+INJECTED from F:\cookapp\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:28.0.0] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\2bc155ca389b87a983e490bb3152d410\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\2bc155ca389b87a983e490bb3152d410\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\bb0517217c7330faa3f23a52051c97d3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\bb0517217c7330faa3f23a52051c97d3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\d1c2f98ad7d11502f3dcddfc5abe8bc1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\d1c2f98ad7d11502f3dcddfc5abe8bc1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\43d2905bf13d5da053aab73cdbf4aa62\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\43d2905bf13d5da053aab73cdbf4aa62\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\29fede7fe42b4fc9cd037cd5b441ecf4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\29fede7fe42b4fc9cd037cd5b441ecf4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\ef675e5b1f7db2b84eeb925c3cc2ff11\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\ef675e5b1f7db2b84eeb925c3cc2ff11\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\76ab0741f58c2d0e2107f4c3ca6a6a98\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\76ab0741f58c2d0e2107f4c3ca6a6a98\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\cd799db54e4603264e4c2d128021a619\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\cd799db54e4603264e4c2d128021a619\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\6f67ccfcd564c033b8e6a0778b052df6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\6f67ccfcd564c033b8e6a0778b052df6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\3e56635e8caf3bb0b588f6707d596184\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\3e56635e8caf3bb0b588f6707d596184\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\1197dedd1bc16a363124eef5e9a36154\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\1197dedd1bc16a363124eef5e9a36154\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\714132fd3957bd437f6ec97129bb8c56\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\714132fd3957bd437f6ec97129bb8c56\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\d7a3fed176c9a0b74f10d43d606fef10\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\d7a3fed176c9a0b74f10d43d606fef10\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\7219571a47fafc5e1489e170094e1b08\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\7219571a47fafc5e1489e170094e1b08\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\1674153ae3260fd5199daa1c1b7d1dd0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\1674153ae3260fd5199daa1c1b7d1dd0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\9eba4592f7d2b595f783637bbe2a69ec\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\9eba4592f7d2b595f783637bbe2a69ec\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\69acd1632f8b4b76b82f59da76a2dbd6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\69acd1632f8b4b76b82f59da76a2dbd6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\764e23f81365ccdc7a8a62b8b91a17b3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\764e23f81365ccdc7a8a62b8b91a17b3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\418255044ec787cb7df2d7d94029bc6b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\418255044ec787cb7df2d7d94029bc6b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\2b0d1bb62820acb2d098e4a2a4fd5c57\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\2b0d1bb62820acb2d098e4a2a4fd5c57\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\51ec0ac2e0019637e3644f1bc00439b4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\51ec0ac2e0019637e3644f1bc00439b4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\70e4940181a0dd0a25cc7da0abab671d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\70e4940181a0dd0a25cc7da0abab671d\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\d265a42b705829a388994d5056d0e065\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\d265a42b705829a388994d5056d0e065\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\b929243835b5ba796033273ea6ed7aa5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\b929243835b5ba796033273ea6ed7aa5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\7e3ef0ef912de05abaa8821c5911869a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\7e3ef0ef912de05abaa8821c5911869a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\bad51c79273aa5ef54f98177816f3302\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\bad51c79273aa5ef54f98177816f3302\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\dfd1012af95a453f5720a7b0c53f8489\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\dfd1012af95a453f5720a7b0c53f8489\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\138af0bc921cc3c9dd1b9247446f4c5b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\138af0bc921cc3c9dd1b9247446f4c5b\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\6d29952d9ca7b6f6ada9bdb737873752\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\6d29952d9ca7b6f6ada9bdb737873752\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\cad4fcbd219db1c3b4419d29c9024107\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\cad4fcbd219db1c3b4419d29c9024107\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\5cdd5abbaedf029568617ef2696feb6f\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\zuime\.gradle\caches\transforms-2\files-2.1\5cdd5abbaedf029568617ef2696feb6f\AndroidManifest.xml:20:5-44
+INJECTED from F:\cookapp\app\src\main\AndroidManifest.xml
+INJECTED from F:\cookapp\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from F:\cookapp\app\src\main\AndroidManifest.xml
+		ADDED from F:\cookapp\app\src\main\AndroidManifest.xml
+		INJECTED from F:\cookapp\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from F:\cookapp\app\src\main\AndroidManifest.xml
+		ADDED from F:\cookapp\app\src\main\AndroidManifest.xml
+		INJECTED from F:\cookapp\app\src\main\AndroidManifest.xml
