@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+   <ImageView
+       android:src="@mipmap/asd"
+       android:layout_width="match_parent"
+       android:layout_height="400dp" />
+   <LinearLayout
+       android:layout_marginLeft="20dp"
+       android:layout_marginRight="20dp"
+       android:background="#22888888"
+       android:orientation="horizontal"
+       android:layout_width="match_parent"
+       android:layout_height="50dp">
+      <TextView
+          android:id="@+id/lk"
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_weight="1"
+          android:gravity="center"
+          android:text="like"/>
+       <View
+           android:layout_width="1dp"
+           android:layout_height="match_parent"
+           android:background="#888">
+
+       </View>
+      <TextView
+          android:id="@+id/cm"
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_weight="1"
+          android:gravity="center"
+          android:text="Comment"/>
+       <View
+           android:layout_width="1dp"
+           android:layout_height="match_parent"
+           android:background="#888">
+
+       </View>
+      <TextView
+          android:id="@+id/sh"
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_weight="1"
+          android:gravity="center"
+          android:text="Share"/>
+   </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="150dp"></LinearLayout>
+</LinearLayout>
