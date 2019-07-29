@@ -1,4 +1,4 @@
-package com.nd.frt.cookingapp;
+package com.example.administrator.bsdemo02;
 
 import org.junit.Test;
 
