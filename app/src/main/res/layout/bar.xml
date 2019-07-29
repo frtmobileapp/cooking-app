@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="30dp"
+    android:background="#4d000000"
+    >
+<android.support.v7.widget.Toolbar
+    android:layout_width="match_parent"
+    android:layout_height="30dp"
+    >
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_action_d"
+        android:layout_marginLeft="300dp"
+        android:contentDescription="@string/todo"
+        android:layout_marginStart="300dp" />
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_action_c"
+        android:contentDescription="@string/todo" />
+    <TextView
+        android:layout_width="45dp"
+        android:layout_height="30dp"
+        android:text="@string/atop"
+        android:textColor="@color/aacolor"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginStart="10dp" />
+</android.support.v7.widget.Toolbar>
+</LinearLayout>
