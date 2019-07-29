@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:paddingRight="-0.4dp"
+>
+    <LinearLayout android:orientation="horizontal"
+                  android:layout_width="fill_parent" android:layout_height="fill_parent"
+                  android:layout_weight="1"
+    >
+        <ImageButton
+                android:id="@+id/salads"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/salads"
+                android:scaleType="center"
+                android:background="@drawable/viewstyle"
+                android:contentDescription="@string/app_name"
+        />
+        <ImageView android:layout_width="fill_parent"
+                   android:layout_height="match_parent"
+                   android:layout_weight="1"
+                   android:src="@drawable/fish"
+                   android:scaleType="center"
+                   android:background="@drawable/viewstyle"
+                   android:contentDescription="@string/app_name"
+        />
+        <ImageView android:layout_width="fill_parent"
+                   android:layout_height="match_parent"
+                   android:layout_weight="1"
+                   android:src="@drawable/sweet"
+                   android:scaleType="center"
+                   android:background="@drawable/viewstyle"
+                   android:contentDescription="@string/app_name"
+        />
+
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal"
+                  android:layout_width="fill_parent" android:layout_height="fill_parent"
+                  android:layout_weight="1"
+    >
+        <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/fastfood"
+                android:scaleType="center"
+                android:background="@drawable/viewstyle"
+                android:contentDescription="@string/app_name"
+        />
+        <ImageView android:layout_width="fill_parent"
+                   android:layout_height="match_parent"
+                   android:layout_weight="1"
+                   android:src="@drawable/soup"
+                   android:scaleType="center"
+                   android:background="@drawable/viewstyle"
+                   android:contentDescription="@string/app_name"
+        />
+        <ImageView android:layout_width="fill_parent"
+                   android:layout_height="match_parent"
+                   android:layout_weight="1"
+                   android:src="@drawable/drinks"
+                   android:scaleType="center"
+                   android:background="@drawable/viewstyle"
+                   android:contentDescription="@string/app_name"
+        />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal"
+                  android:layout_width="fill_parent" android:layout_height="fill_parent"
+                  android:layout_weight="1"
+    >
+        <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/fruits"
+                android:scaleType="center"
+                android:background="@drawable/viewstyle"
+                android:contentDescription="@string/app_name"
+        />
+        <ImageView android:layout_width="fill_parent"
+                   android:layout_height="match_parent"
+                   android:layout_weight="1"
+                   android:src="@drawable/bread"
+                   android:scaleType="center"
+                   android:background="@drawable/viewstyle"
+                   android:contentDescription="@string/app_name"
+        />
+        <ImageView android:layout_width="fill_parent"
+                   android:layout_height="match_parent"
+                   android:layout_weight="1"
+                   android:src="@drawable/taco"
+                   android:scaleType="center"
+                   android:background="@drawable/viewstyle"
+                   android:contentDescription="@string/app_name"
+        />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal"
+                  android:layout_width="fill_parent" android:layout_height="fill_parent"
+                  android:layout_weight="1"
+    >
+        <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/pizza"
+                android:scaleType="center"
+                android:background="@drawable/viewstyle"
+                android:contentDescription="@string/app_name"
+        />
+        <ImageView android:layout_width="fill_parent"
+                   android:layout_height="match_parent"
+                   android:layout_weight="1"
+                   android:src="@drawable/coffe"
+                   android:scaleType="center"
+                   android:background="@drawable/viewstyle"
+                   android:contentDescription="@string/app_name"
+        />
+        <ImageView android:layout_width="fill_parent"
+                   android:layout_height="match_parent"
+                   android:layout_weight="1"
+                   android:src="@drawable/sushi"
+                   android:scaleType="center"
+                   android:background="@drawable/viewstyle"
+                   android:contentDescription="@string/app_name"
+        />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal"
+                  android:layout_width="fill_parent" android:layout_height="fill_parent"
+                  android:layout_weight="1"
+                  android:layout_marginBottom="0dp"
+    >
+        <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/potato"
+                android:scaleType="center"
+                android:background="@drawable/viewstyle2"
+                android:contentDescription="@string/app_name"
+        />
+        <ImageView android:layout_width="fill_parent"
+                   android:layout_height="match_parent"
+                   android:layout_weight="1"
+                   android:src="@drawable/chees"
+                   android:scaleType="center"
+                   android:background="@drawable/viewstyle2"
+                   android:contentDescription="@string/app_name"
+        />
+        <ImageView android:layout_width="fill_parent"
+                   android:layout_height="match_parent"
+                   android:layout_weight="1"
+                   android:src="@drawable/close"
+                   android:scaleType="center"
+                   android:background="@drawable/viewstyle2"
+                   android:contentDescription="@string/app_name"
+        />
+    </LinearLayout>
+
+</LinearLayout>
