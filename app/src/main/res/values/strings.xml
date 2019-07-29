@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">CookingApp</string>
+    <string name="todo">TODO</string>
+    <string name="mtop">Healthy Food</string>
+    <string name="mVer">Nam dapibus nisl vitae elit fringilla rutrum.</string>
+    <string name="tex">Aenean sollicitudin,erat a elementum ruturn,</string>
+    <string name="atex"> neque sem pretium metus,quis mollis nisl</string>
+    <string name="bex">nunc et massa</string>
+    <string name="stop">Fresh Morning</string>
+    <string name="top">GOT   IT</string>
+    <string name="atop">12:30</string>
+    <string name="btop">SALAD</string>
 </resources>

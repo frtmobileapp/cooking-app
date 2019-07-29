@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="viewpager" type="id">viewpager</item>
+    <item name="ll_item" type="id">ll_item</item>
+    <item name="blue_iv" type="id">blue_iv</item>
+</resources>

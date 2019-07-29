@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@mipmap/icon" />
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="180dp"
+        android:gravity="center"
+        android:text="@string/btop"
+        android:textColor="@color/aacolor"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginStart="160dp" />
+    <include layout="@layout/bar"/>
+    <include layout="@layout/search"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="65dp"
+        android:background="@mipmap/icon copy 2"
+        android:layout_marginStart="160dp" />
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="65dp"
+        android:background="@mipmap/base"
+        android:layout_marginStart="160dp">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="90dp"
+            android:background="@mipmap/icon copy 2"
+            android:layout_marginLeft="145dp"
+            android:layout_marginStart="145dp"
+            android:contentDescription="@string/todo" />
+    </android.support.v4.view.ViewPager>
+    <FrameLayout
+        android:layout_width="385dp"
+        android:layout_height="200dp"
+        android:background="@color/mcolor"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp">
+        <TextView
+            android:text="@string/mtop"
+            android:textSize="25sp"
+            android:layout_marginLeft="15dp"
+            android:textColor="@color/aacolor"
+            android:layout_width="360dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="left"
+            android:layout_marginStart="15dp"
+            tools:ignore="RtlHardcoded" />
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="15dp"
+            android:text="@string/mVer"
+            android:textColor="@color/aacolor"
+            android:textSize="18sp"
+            android:layout_marginStart="15dp" />
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="15dp"
+            android:text="@string/mVer"
+            android:textColor="@color/aacolor"
+            android:textSize="18sp"
+            android:layout_marginStart="15dp" />
+        <TextView
+            android:layout_width="348dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="130dp"
+            android:layout_marginLeft="15dp"
+            android:text="@string/atex"
+            android:textColor="@color/aacolor"
+            android:textSize="18sp"
+            android:layout_marginStart="15dp" />
+        <TextView
+            android:layout_width="348dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="160dp"
+            android:layout_marginLeft="15dp"
+            android:text="@string/bex"
+            android:textColor="@color/aacolor"
+            android:textSize="18sp"
+            android:layout_marginStart="15dp" />
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="385dp"
+        android:layout_height="260dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="460dp">
+        <Button
+            android:id="@+id/btn"
+            android:text="@string/top"
+            android:textSize="20sp"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="260dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginStart="260dp" />
+        <ImageView
+            android:layout_width="385dp"
+            android:layout_height="120dp"
+            android:background="@mipmap/icon1"
+            android:contentDescription="@string/todo" />
+        <TextView
+            android:text="@string/stop"
+            android:textSize="25sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_width="385dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="120dp"
+            android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp" />
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="170dp"
+            android:layout_marginLeft="15dp"
+            android:text="@string/mVer"
+            android:textColor="@color/bcolor"
+            android:textSize="18sp"
+            android:layout_marginStart="15dp" />
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="190dp"
+            android:text="@string/mVer"
+            android:textColor="@color/bcolor"
+            android:textSize="18sp"
+            android:layout_marginStart="15dp" />
+        <TextView
+            android:layout_width="348dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="210dp"
+            android:layout_marginLeft="15dp"
+            android:text="@string/atex"
+            android:textColor="@color/bcolor"
+            android:textSize="18sp"
+            android:layout_marginStart="15dp" />
+        <TextView
+            android:layout_width="348dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="230dp"
+            android:layout_marginLeft="15dp"
+            android:text="@string/bex"
+            android:textColor="@color/bcolor"
+            android:textSize="18sp"
+            android:layout_marginStart="15dp" />
+    </FrameLayout>
+
+</FrameLayout>
