@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">CookingApp</string>
+    <string name="app_name">cookApplication</string>
+    <string name="login">login</string>
+    <string name="explore">Explore</string>
+    <string name="Lorem">\u3000Mauris non tempor quam,et lacinia sapien \n
+        \u3000Mauris accumsan eros eget libero posuere\n
+        \u3000vulputate.Etiam elit elit,elementum sed\n
+        \u3000\u3000\u3000varius at,adipiscing vitae est.</string>
 </resources>
