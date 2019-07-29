@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">CookingApp</string>
+    <string name="title_activity_last">last</string>
+    <string name="action_settings">Settings</string>
 </resources>
