@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">CookingApp</string>
+    <string name="CLOSE">CLOSE</string>
+    <string name="data1">\u3000Were it known to the rest of my \n family, I should not have merely my\n \u3000\u3000own gratitude to express.　</string>
+    <string name="data2">\u3000It refers to juicy, sweet and sour, edible plant \n\u3000\u3000\u3000fruits.Fruits are not only rich in vitamin \n\u3000\u3000nutrition but also can promote digestion.</string>
+    <string name="data3">\u3000\u3000Food is heated by heating and drying the \n\u3000\u3000\u3000air with fuel and placing the food \n\u3000\u3000\u3000\u3000in a relatively close position to\n\u3000\u3000\u3000the heat source in the hot and dry air.</string>
+    <string name="textHead1">Recipe</string>
+    <string name="textHead2">Fruits</string>
+    <string name="textHead3">Barbecue</string>
+    <string name="start">START</string>
 </resources>

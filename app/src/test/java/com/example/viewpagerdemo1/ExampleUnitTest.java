@@ -1,4 +1,4 @@
-package com.nd.frt.cookingapp;
+package com.example.viewpagerdemo1;
 
 import org.junit.Test;
 
