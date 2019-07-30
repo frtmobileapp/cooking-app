@@ -1,4 +1,4 @@
-package com.nd.frt.cookingapp;
+package com.demo.myapplication;
 
 import org.junit.Test;
 
