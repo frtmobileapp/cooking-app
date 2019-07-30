@@ -1,3 +1,18 @@
 <resources>
-    <string name="app_name">CookingApp</string>
+    <string name="app_name">Directions</string>
+    <string name="settings">settings</string>
+    <string name="lorem"> \n \u3000Lorem ipsum dolor sit amet,\n
+     \u3000consectetur adipisicing elit</string>
+    <string name="min"><font color="black">30 min</font></string>
+    <string name="vegetable">VEGETABLE\n\n
+        Lorem ipsum\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000 <font color="black">200 g </font>\n\n
+        Dolor sit amet\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000<font color="black">10 g </font>\n\n
+        Consectetur\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000<font color="black">1 box</font></string>
+    <string name="leaked">LEAKED\n\n
+                          Olive Oil\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000<font color="black">2</font></string>
+    <string name="sea_food">SEA FOOD\n\n
+                Salmon\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000<font color="black">1</font></string>
+    <string name="carbohydrate">CARBOHYDRATE\n\n
+        Avena\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000<font color="black">20 g</font>\n
+    Bread\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000<font color="black">1</font></string>
 </resources>
