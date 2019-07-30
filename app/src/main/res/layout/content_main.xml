@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".MainActivity">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="260dp">
+
+        <ImageView
+            android:id="@+id/head1"
+            android:layout_width="409dp"
+            android:layout_height="269dp"
+            android:src="@drawable/back1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="40dp">
+
+
+            <ImageView
+                android:layout_width="82dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/savannahwalkman" />
+
+            <LinearLayout
+                android:layout_width="240dp"
+                android:layout_height="93dp"
+                android:orientation="vertical"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:text="Alexandra Jonas"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="24dp" />
+
+                <TextView
+                    android:layout_width="293dp"
+                    android:layout_height="60dp"
+                    android:text="304 Follower  |  154 Following "
+                    android:textColor="@android:color/background_light"
+                    android:textSize="18dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="370dp"
+        android:layout_height="124dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="-80dp"
+        android:background="@color/cardview_light_background">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Vestibulum rutr."
+            android:textSize="25dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"/>
+
+        <ImageView
+            android:layout_width="19dp"
+            android:layout_height="26dp"
+            android:layout_marginLeft="30dp"
+            android:src="@drawable/icon"
+            android:layout_marginTop="26dp"
+            tools:ignore="ContentDescription"
+            android:layout_marginStart="30dp" />
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="26dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:text="37likes"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:layout_width="370dp"
+            android:layout_height="90dp"
+            android:src="@drawable/back2"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="-340dp"
+            android:scaleType="centerCrop"/>
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="20dp"
+            android:background="@drawable/arrowcopy"
+            android:layout_marginLeft="-60dp"
+            android:layout_marginTop="85dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="371dp"
+        android:layout_height="121dp"
+        android:layout_marginLeft="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Donec facilisis."
+            android:textSize="25dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp" />
+
+        <ImageView
+            android:layout_width="19dp"
+            android:layout_height="26dp"
+            android:layout_marginLeft="36dp"
+            android:layout_marginTop="24dp"
+            app:srcCompat="@drawable/icon" />
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="26dp"
+            android:gravity="center_vertical"
+            android:text="24likes"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"/>
+        <ImageView
+        android:layout_width="370dp"
+        android:layout_height="90dp"
+        android:src="@drawable/back3"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="-340dp"
+        android:scaleType="centerCrop"/>
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="20dp"
+            android:background="@drawable/arrowcopy"
+            android:layout_marginLeft="-60dp"
+            android:layout_marginTop="85dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="371dp"
+        android:layout_height="123dp"
+        android:layout_marginLeft="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:gravity="left"
+            android:text="  Cras quis nulla."
+            android:textSize="25dp" />
+
+        <ImageView
+            android:layout_width="19dp"
+            android:layout_height="26dp"
+            android:layout_marginLeft="36dp"
+            android:layout_marginTop="24dp"
+            android:src="@drawable/icon" />
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="26dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="16dp"
+            android:text="9likes"
+            android:textSize="20dp" />
+        <ImageView
+            android:layout_width="370dp"
+            android:layout_height="90dp"
+            android:src="@drawable/back4"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="-340dp"
+            android:scaleType="centerCrop"/>
+        <Button
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+        android:background="@drawable/arrowcopy"
+        android:layout_marginLeft="-65dp"
+        android:layout_marginTop="85dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="371dp"
+        android:layout_height="117dp"
+        android:layout_marginLeft="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:text="  Nam dapibus nis. "
+            android:textSize="25dp" />
+
+        <ImageView
+            android:layout_width="19dp"
+            android:layout_height="26dp"
+            android:src="@drawable/icon"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="24dp" />
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="26dp"
+            android:text="24likes"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="16dp" />
+        <ImageView
+            android:layout_width="370dp"
+            android:layout_height="90dp"
+            android:src="@drawable/back5"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="-340dp"
+            android:scaleType="centerCrop"/>
+        <Button
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+        android:background="@drawable/arrowcopy"
+        android:layout_marginLeft="-65dp"
+        android:layout_marginTop="85dp"/>
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>
