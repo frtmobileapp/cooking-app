@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5d7580"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="30dp"
+        tools:ignore="UselessLeaf">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Salads"
+            android:textSize="18sp"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="62dp"
+            android:layout_marginTop="100dp"
+            />
+
+        <LinearLayout
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="#546e7a"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="50dp"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_salads" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fish"
+            android:textSize="18sp"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="192dp"
+            android:layout_marginTop="100dp"
+            />
+
+        <LinearLayout
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="#546e7a"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="170dp"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_fish" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sweeties"
+            android:textSize="18sp"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="295dp"
+            android:layout_marginTop="100dp"
+            />
+
+        <LinearLayout
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="#546e7a"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="290dp"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_sweeties" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="160dp"
+        tools:ignore="UselessLeaf">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Burgers"
+            android:textSize="18sp"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="62dp"
+            android:layout_marginTop="100dp"
+            />
+
+        <LinearLayout
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="#546e7a"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="50dp"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_burgers" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Suop"
+            android:textSize="18sp"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="192dp"
+            android:layout_marginTop="100dp"
+            />
+
+        <LinearLayout
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="#546e7a"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="170dp"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_soup" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Drinks"
+            android:textSize="18sp"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="305dp"
+            android:layout_marginTop="100dp"
+            />
+
+        <LinearLayout
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="#546e7a"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="290dp"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_drink" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="290dp"
+        tools:ignore="UselessLeaf">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fruits"
+            android:textSize="18sp"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="67dp"
+            android:layout_marginTop="100dp"
+            />
+
+        <LinearLayout
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="#546e7a"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="50dp"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_fruits" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bread"
+            android:textSize="18sp"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="188dp"
+            android:layout_marginTop="100dp"
+            />
+
+        <LinearLayout
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="#546e7a"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="170dp"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_bread" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Taco"
+            android:textSize="18sp"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="310dp"
+            android:layout_marginTop="100dp"
+            />
+
+        <LinearLayout
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="#546e7a"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="290dp"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_taco" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="410dp"
+        tools:ignore="UselessLeaf">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pizza"
+            android:textSize="18sp"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="72dp"
+            android:layout_marginTop="100dp"
+            />
+
+        <LinearLayout
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="#546e7a"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="50dp"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_pizza" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Coffe"
+            android:textSize="18sp"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="100dp"
+            />
+
+        <LinearLayout
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="#546e7a"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="170dp"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_coffe" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sushi"
+            android:textSize="18sp"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="307dp"
+            android:layout_marginTop="100dp"
+            />
+
+        <LinearLayout
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="#546e7a"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="290dp"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_sushi" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="530dp"
+        tools:ignore="UselessLeaf">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Potato"
+            android:textSize="18sp"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="62dp"
+            android:layout_marginTop="100dp"
+            />
+
+        <LinearLayout
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="#546e7a"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="50dp"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_potato" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cheese"
+            android:textSize="18sp"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="182dp"
+            android:layout_marginTop="100dp"
+            />
+
+        <LinearLayout
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="#546e7a"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="170dp"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_cheese" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Others"
+            android:textSize="18sp"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="305dp"
+            android:layout_marginTop="100dp"
+            />
+
+        <LinearLayout
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="#546e7a"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="290dp"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_others" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>
