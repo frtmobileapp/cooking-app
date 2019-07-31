@@ -1,3 +1,36 @@
 <resources>
-    <string name="app_name">CookingApp</string>
+    <string name="app_name">Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="na"><font color="#616161">na Morozova added new recipe\n
+        ht Salad</font></string>
+    <string name="min4"><font color="#616161">46 min ago</font></string>
+    <string name="shu4"><font color="#616161">67</font></string>
+    <string name="accept">ACCEPT</string>
+    <string name="sava"><font color="#616161">Savannah Walkman invited you to \n
+                                              Saturday Noon Lunch</font></string>
+    <string name="min1"><font color="#616161">4 min ago</font></string>
+    <string name="shu1"><font color="#616161">4</font></string>
+    <string name="steve"><font color="#616161">Steve Patrick invited you to\n
+                                              San Fransisco Dinner</font></string>
+    <string name="min2"><font color="#616161">21 min ago</font></string>
+    <string name="shu2"><font color="#616161">34</font></string>
+    <string name="min3"><font color="#616161">22 min ago</font></string>
+    <string name="shu3"><font color="#616161">5</font></string>
+
+    <string name="kris"><font color="#616161">Kristina White added new recipe \n
+                                              Every Day Salad</font></string>
+    <string name="min5"><font color="#616161">1 hours ago</font></string>
+    <string name="shu5"><font color="#616161">56</font></string>
 </resources>
