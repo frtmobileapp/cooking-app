@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/exit"
+        android:title="Feed"
+        android:icon="@drawable/ic_feed"
+        />
+    <item android:id="@+id/set"
+        android:title="Explone"
+        android:icon="@drawable/ic_explore"
+        />
+    <item android:id="@+id/account"
+        android:title="My Recipes"
+        android:icon="@drawable/ic_recipes"
+        />
+    <item android:id="@+id/dhg"
+        android:title="Settings"
+        android:icon="@drawable/ic_sttring"
 
-        
-    </menu>
+
+        />
+
+
+
+
+</menu>
+
 

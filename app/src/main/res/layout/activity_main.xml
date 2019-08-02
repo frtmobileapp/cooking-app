@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".MainActivity">
-    <RelativeLayout
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context=".MainActivity">
+
+<Button
+    android:id="@+id/button1"
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    android:background="@drawable/ic_action_name"
+    />
+<RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
@@ -102,12 +109,13 @@
         android:layout_height="0dp"
         android:layout_weight="1"
         >
+
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@mipmap/too"
+            android:contentDescription="@string/todo"
             android:scaleType="fitXY"
-            android:contentDescription="@string/todo" />
+            android:src="@mipmap/too" />
 
         <RelativeLayout
             android:layout_width="match_parent"
