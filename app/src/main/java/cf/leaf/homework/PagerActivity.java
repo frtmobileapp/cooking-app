@@ -1,9 +1,6 @@
 package cf.leaf.homework;
 
 import android.annotation.TargetApi;
-import android.content.BroadcastReceiver;
-import android.content.Intent;
-import android.content.IntentFilter;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.v4.view.PagerAdapter;
@@ -14,19 +11,15 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
-import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class HomeActivity extends AppCompatActivity {
-
-    private TextView batterLevel;
-    private BroadcastReceiver batteryLevelRcvr;
-    private IntentFilter batteryLevelFilter;
+public class PagerActivity extends AppCompatActivity {
     private ViewPager viewPager;
     private List<ImageView> imageViewList;
-    private int images[] = {R.drawable.topbg, R.drawable.f2, R.drawable.f3};
+//    private int images[] = {R.mipmap.b, R.mipmap.d, R.mipmap.f};
+    private int images[] = {R.drawable.f1, R.drawable.f2, R.drawable.f3};
     private ImageView icons[];//用来存放多个dot的数组
     private LinearLayout linearLayout;
 
@@ -35,14 +28,7 @@ public class HomeActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
-        setContentView(R.layout.activity_main);
-        getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LOW_PROFILE);
-
-        batterLevel = (TextView)findViewById(R.id.batteryLevel);
-
-
-
+        setContentView(R.layout.activity_pagern);
         viewPager = (ViewPager) findViewById(R.id.viewPager);
         linearLayout = (LinearLayout) findViewById(R.id.ll);
         initData();  //创建数据源
@@ -51,12 +37,12 @@ public class HomeActivity extends AppCompatActivity {
         MyAdapter adapter = new MyAdapter();
         viewPager.setAdapter(adapter);
         //定义Viewpager的监听事件
-        //        viewPager.setOnScrollChangeListener(new View.OnScrollChangeListener() {
-        //            @Override
-        //            public void onScrollChange(View view, int i, int i1, int i2, int i3) {
-        //
-        //            }
-        //        });
+//        viewPager.setOnScrollChangeListener(new View.OnScrollChangeListener() {
+//            @Override
+//            public void onScrollChange(View view, int i, int i1, int i2, int i3) {
+//
+//            }
+//        });
         //
         viewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
             /**
@@ -102,7 +88,6 @@ public class HomeActivity extends AppCompatActivity {
             }
         });
     }
-
 
     //初始化数据源
     public void initData() {
@@ -160,26 +145,9 @@ public class HomeActivity extends AppCompatActivity {
 
         @Override
         public void destroyItem(ViewGroup container, int position, Object object) {
-            //            super.destroyItem(container, position, object);
+//            super.destroyItem(container, position, object);
             Log.i("aa", "---------destroyItem---------" + position);
             container.removeView(imageViewList.get(position));
         }
     }
-
-    public void click(View view) {
-        Intent intent = new Intent(HomeActivity.this, SecondActivity.class);
-        this.startActivity(intent);
-
-    }
-
-
-
-
-
-
-
-
-
-
-
 }

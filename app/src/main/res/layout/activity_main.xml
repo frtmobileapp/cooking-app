@@ -8,38 +8,85 @@
     android:onClick="click"
     android:orientation="vertical"
     tools:context=".HomeActivity">
+
     <TextView
-        android:visibility="gone"
         android:id="@+id/batteryLevel"
-        android:textSize="18dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Hello World!"
+        android:textSize="18dp"
+        android:visibility="gone"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"/>
 
+    <!--<RelativeLayout-->
+    <!--android:background="@drawable/topbg"-->
+    <!--android:layout_weight="1"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="0dp">-->
 
+    <!--</RelativeLayout>-->
 
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2">
 
- <RelativeLayout
-     android:background="@drawable/topbg"
-     android:layout_weight="1"
-     android:layout_width="match_parent"
-     android:layout_height="0dp">
+    </android.support.v4.view.ViewPager>
 
- </RelativeLayout>
+    <LinearLayoutc
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_alignBottom="@+id/viewPager"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="40dp"
+        android:layout_weight="0.1"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <!--设置某一个view的最大宽和最大高-->
+        <!---->
+        <!--/*ImageView的android:adjustViewBounds属性为是否保持原图的长宽-->
+        <!--比，单独设置不起作用，-->
+        <!--需要配合maxWidth或maxHeight一起使用。*/-->
+        <ImageView
+            android:id="@+id/dot1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:maxHeight="15dp"
+            android:src="@drawable/dot"/>
 
+        <ImageView
+            android:id="@+id/dot2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:adjustViewBounds="true"
+            android:maxHeight="15dp"
+            android:src="@drawable/dot"/>
+
+        <ImageView
+            android:id="@+id/dot3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:maxHeight="15dp"
+            android:src="@drawable/dot"/>
+    </LinearLayoutc>
 
     <RelativeLayout
-        android:onClick="click"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:background="@drawable/bg_bottom"
+        android:onClick="click">
 
-        android:background="@drawable/bottombg"
-     android:layout_weight="1"
-     android:layout_width="match_parent"
-     android:layout_height="0dp">
-
- </RelativeLayout>
+    </RelativeLayout>
 
 </LinearLayout>
