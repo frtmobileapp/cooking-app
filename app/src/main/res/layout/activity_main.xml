@@ -21,13 +21,84 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
 
-    <!--<RelativeLayout-->
-    <!--android:background="@drawable/topbg"-->
-    <!--android:layout_weight="1"-->
-    <!--android:layout_width="match_parent"-->
-    <!--android:layout_height="0dp">-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:background="@drawable/bg_top"
+        android:onClick="click"
+        android:paddingTop="20dp">
 
-    <!--</RelativeLayout>-->
+        <ImageView
+            android:id="@+id/iv_more"
+            android:layout_width="25dp"
+            android:layout_height="15dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/more"/>
+
+        <TextView
+            android:id="@+id/tv_text_explore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_toRightOf="@+id/iv_more"
+            android:text="Explore"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/iv_magnifying"
+            android:layout_width="25dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="140dp"
+            android:layout_toRightOf="@+id/tv_text_explore"
+            android:background="@drawable/search"/>
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/more_dot"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <ImageView
+
+                android:layout_width="45dp"
+                android:layout_height="55dp"
+                android:background="@drawable/top_log"/>
+
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Salads"
+                android:textColor="#ffffff"/>
+
+            <TextView
+                android:ems="20"
+                android:gravity="center_horizontal"
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="
+L orem ipsum dolor sit amet, consectetur
+adipiscing elit. Ut pretium pretium."
+                android:textColor="#ffffff"/>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
 
     <android.support.v4.view.ViewPager
         android:id="@+id/viewPager"
@@ -37,7 +108,7 @@
 
     </android.support.v4.view.ViewPager>
 
-    <LinearLayoutc
+    <LinearLayout
         android:id="@+id/ll"
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -48,11 +119,7 @@
         android:layout_weight="0.1"
         android:gravity="center"
         android:orientation="horizontal">
-        <!--设置某一个view的最大宽和最大高-->
-        <!---->
-        <!--/*ImageView的android:adjustViewBounds属性为是否保持原图的长宽-->
-        <!--比，单独设置不起作用，-->
-        <!--需要配合maxWidth或maxHeight一起使用。*/-->
+
         <ImageView
             android:id="@+id/dot1"
             android:layout_width="wrap_content"
@@ -78,15 +145,6 @@
             android:adjustViewBounds="true"
             android:maxHeight="15dp"
             android:src="@drawable/dot"/>
-    </LinearLayoutc>
-
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="2"
-        android:background="@drawable/bg_bottom"
-        android:onClick="click">
-
-    </RelativeLayout>
+    </LinearLayout>
 
 </LinearLayout>

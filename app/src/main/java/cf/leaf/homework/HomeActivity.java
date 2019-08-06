@@ -26,7 +26,7 @@ public class HomeActivity extends AppCompatActivity {
     private IntentFilter batteryLevelFilter;
     private ViewPager viewPager;
     private List<ImageView> imageViewList;
-    private int images[] = {R.drawable.topbg, R.drawable.f2, R.drawable.f3};
+    private int images[] = {R.drawable.bg_bottom, R.drawable.f2, R.drawable.f3};
     private ImageView icons[];//用来存放多个dot的数组
     private LinearLayout linearLayout;
 
@@ -171,15 +171,6 @@ public class HomeActivity extends AppCompatActivity {
         this.startActivity(intent);
 
     }
-
-
-
-
-
-
-
-
-
 
 
 }
