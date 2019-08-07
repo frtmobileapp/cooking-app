@@ -1,4 +1,4 @@
-package com.nd.frt.cookingapp;
+package cf.leaf.homework;
 
 import org.junit.Test;
 
